@@ -1,0 +1,9 @@
+services:
+    api:
+        build: .
+        ports:
+            - "3000:3000"
+        depends_on:
+            - cache
+    cache:
+        image: "redis:alpine"
