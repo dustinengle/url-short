@@ -4,6 +4,8 @@ A very simple url shortening example.
 
 Linux, more specifically Ubuntu 20, is assumed for all commands.
 
+__Duration: 2 hours__
+
 ## Requirements
 * `docker`
 * `docker-compose`
@@ -17,3 +19,11 @@ Linux, more specifically Ubuntu 20, is assumed for all commands.
 
 ## Stop
 * To stop the docker-compose services run `docker-compose stop` in the terminal from the project root.
+
+## Gaps
+* Testing and benchmarking
+* Scaling would be ideal
+* Better configuration with expirations for example
+* User based routes would be cool
+* Security, it is pretty open right now
+* Terraform to configure an AWS deployment
